@@ -42,3 +42,11 @@ button:after{
     opacity: .7;
     transform: perspective(1,5em) rotateX(35deg) scale(1, .6);
 }
+
+button::before{
+width: 100%;
+background-color: var(--glow-spread-color);
+filter: blur(1.5em);
+opacity: .7;
+transform: ;
+}
